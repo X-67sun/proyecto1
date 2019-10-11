@@ -1,0 +1,23 @@
+    section{
+      min-height: 100vh;
+    }
+    .third-section img{
+      width: 100%;
+    }
+    @media (min-width: 768px){
+     .first-section{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      }
+      .second-section {
+        display:flex;
+      }
+     .second-section p{
+      width: 33%;
+      padding: 15px;
+     }
+     .third-section{
+        min-height: 70vh;
+      } 
+    }
